@@ -1,0 +1,141 @@
+/* ------------------------- 核心：清除视频轮播上方所有空白 ------------------------- */
+/* 1. 轮播外层section：清除所有内外边距，避免框架默认间距 */
+.carousel-section {
+  margin: 0 !important;    /* 清除外部间距 */
+  padding: 0 !important;   /* 清除内部间距 */
+  border: none !important; /* 确保没有隐性边框 */
+}
+
+/* 2. 轮播容器：清除顶部外边距和默认高度，避免初始化时的空白 */
+#author-video-carousel.carousel-no-gap {
+  margin: 0 !important;    /* 清除轮播容器自身的内外边距 */
+  padding: 0 !important;
+  min-height: auto !important; /* 禁用框架默认的最小高度（关键！） */
+  height: auto !important;     /* 让高度随内容自适应，不强制留白 */
+}
+
+/* 3. 轮播单个项目：清除顶部内边距，避免每个视频项上方留白 */
+.carousel-item {
+  overflow: visible !important; /* 允许内容超出容器 */
+  padding-bottom: 30px !important; /* 增加底部间距 */
+}
+
+/* ------------------------- 视频和字幕样式：保持功能，优化布局 ------------------------- */
+/* 视频容器：确保宽高比16:9，无额外间距 */
+.video-wrapper {
+  position: relative;
+  width: 100% !important;
+  padding-bottom: 56.25% !important; /* 16:9 宽高比（固定，不产生空白） */
+  aspect-ratio: 16/9 !important;     /* 现代浏览器补充，确保宽高比 */
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden !important;
+  margin: 0 !important;    /* 清除视频容器自身的内外边距 */
+  padding: 0 !important;
+}
+
+/* 视频元素：填满容器，无额外空白 */
+.video-wrapper video {
+  position: absolute;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important; /* 填满容器，不产生黑边空白 */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 字幕容器：与视频紧密衔接，无多余间距 */
+.video-caption {
+  max-height: 400px; /* 设置最大高度 */
+  overflow-y: auto; /* 超出时显示滚动条 */
+  line-height: 1.8; /* 增加行高 */
+  font-size: 0.8rem; /* 增大字体 */
+  margin-top: 1.5rem !important; /* 增加与视频的间距 */
+}
+
+/* ------------------------- 保留原CSS中其他无关样式（如下） ------------------------- */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .icon-link {
+  font-size: 25px;
+  color: #000;
+}
+
+.link-block a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+  color: #555;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.publication-awards {
+  color: #ff3860;
+  width: fit-content;
+  font-weight: bolder;
+}
+
+.publication-authors a {
+  color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 10px !important;
+}
+
+.publication-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}

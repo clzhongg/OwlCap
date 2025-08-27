@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>OwlCap: Harmonizing Motion-Detail for Video Captioning via  HMD-270K and Caption Set Equivalence Reward</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">OwlCap: Harmonizing Motion-Detail for Video Captioning via  HMD-270K and Caption Set Equivalence Reward</h1>
+
+
+                  <div class="is-size-5 publication-authors">
+                    <!-- Paper authors -->
+                    <span class="author-block">
+                      <a href="https://scholar.google.com.hk/citations?user=ai328a4AAAAJ&hl=zh-CN" target="_blank">Chunlin Zhong</a><sup>1,*</sup>,
+                    </span>
+                    <span class="author-block">
+                      Qiuxia Hou</a><sup>2,*</sup>,
+                    </span>
+                    <span class="author-block">
+                      <a href="https://scholar.google.com.hk/citations?user=lvx5k9cAAAAJ&hl=zh-CN" target="_blank">Zhangjun Zhou</a><sup>1,*</sup>,
+                    </span>
+                    <span class="author-block">
+                      <a href="https://scholar.google.com.hk/citations?user=h-vz14wAAAAJ&hl=zh-CN" target="_blank">Shuang Hao</a><sup>1,3</sup>,
+                    </span>
+                    <br> <!-- Line break for better formatting if needed -->
+                    <span class="author-block">
+                      Haonan Lu</a><sup>2</sup>,
+                    </span>
+                    <span class="author-block">
+                      <a href="https://scholar.google.com.hk/citations?user=J1OguXAAAAAJ&hl=zh-CN&oi=ao" target="_blank">Yanhao Zhang</a><sup>2,&#8224;&#8225;</sup>,
+                    </span>
+                    <span class="author-block">
+                      <a href="https://scholar.google.com.hk/citations?user=70XLFUsAAAAJ&hl=zh-CN" target="_blank">He Tang</a><sup>1,&#8224;</sup>,
+                    </span>
+                    <span class="author-block">
+                      <a href="https://scholar.google.com.hk/citations?user=UeltiQ4AAAAJ&hl=zh-CN" target="_blank">Xiang Bai</a><sup>1</sup>
+                    </span>
+                  </div>
+    
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup>School of Software Engineering, Huazhong University of Science and Technology, Wuhan, China<br>
+                      <sup>2</sup>OPPO AI Center, OPPO Inc., China<br>
+                      <sup>3</sup>School of Life Science and Technology, Xi’an Jiaotong University, Xi’an, China
+                    </span>
+                    <br>
+                    <!-- You might want to adjust the email display -->
+                    <span class="author-block">{clzhong, hetang}@hust.edu.cn, {houqiuxia, zhangyanhao}@oppo.com</span>
+                    <br>
+                    <span class="eql-cntrb"><small><sup>*</sup>Indicates Equal Contribution&nbsp;&nbsp;<sup>&#8224;</sup>Corresponding Authors&nbsp;&nbsp;<sup>&#8225;</sup>Project Leader</small></span>
+                    <!-- If He Tang's dagger footnote is standard equal contribution, you can replace &#8225; with * and adjust the text accordingly -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 新增：视频轮播图区块 -->
+<!-- 视频轮播图区块：删除冗余的 hero-body 嵌套，简化结构 -->
+ 
+<section class="carousel-section"> <!-- 替换原 hero 类，避免框架默认间距 -->
+  
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Example of HMD-270K</h2>
+    <!-- 轮播图容器：添加 carousel-no-gap 类，清除内部间距 -->
+    <div id="author-video-carousel" class="carousel results-carousel carousel-no-gap">
+      <!-- 视频项目 1：删除 item 内多余嵌套 -->
+      <div class="carousel-item"> <!-- 替换原 item 类，避免框架默认样式 -->
+        <div class="video-wrapper"> <!-- 直接用 video-wrapper 包裹视频，减少层级 -->
+          <video poster="" controls muted loop>
+            <source src="static/videos/20350807.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- 字幕容器 -->
+        <div class="video-caption">
+          <h3 class="caption-title">Caption</h3>
+          <p>The video captures a scene where a woman is engaged in an explanatory session in front of a blackboard. The blackboard is adorned with various sticky notes arranged in a semi-circular pattern and some chalk-drawn diagrams. The woman holds a yellow tablet in one hand and a red pencil in the other. She uses the red pencil to gesture towards the sticky notes and diagrams as she speaks, indicating points of interest or explanation.As she explains, she raises her hand with the red pencil, emphasizing certain aspects of the content on the blackboard. Her body language suggests she is actively involved in conveying information. Midway through her explanation, she turns her head to address a man standing beside her. The man is partially visible from behind and is holding a notepad, suggesting he might be taking notes or preparing to contribute to the discussion.After briefly engaging with the man, the woman returns her focus to the blackboard. She continues to use the red pencil to point at the sticky notes and diagrams, maintaining her role as the primary explainer. Her gestures and movements indicate a structured approach to presenting the material on the blackboard. The overall setting suggests a collaborative environment, possibly a classroom or a workshop, where ideas are being shared and discussed.</p>
+        </div>
+      </div>
+
+      <!-- 视频项目 2：同上述结构 -->
+      <div class="carousel-item">
+        <div class="video-wrapper">
+          <video poster="" controls muted loop>
+            <source src="static/videos/2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-caption">
+          <h3 class="caption-title">Caption</h3>
+          <p>The video begins with a close-up shot of a woman's hands as she holds a stack of programs labeled \"The Green.\" The camera focuses on the programs, which are neatly stacked together. In the background, there is a glimpse of a table adorned with a vibrant vase of colorful flowers, adding a touch of elegance to the setting.As the scene progresses, the camera follows the woman as she walks through a doorway. The transition from the initial setting to a larger, well-lit dining area is smooth. The dining area is spacious and beautifully decorated with numerous floral arrangements, creating a festive and inviting atmosphere. The room is filled with people seated at round tables covered with white tablecloths. Guests are engaged in conversations, enjoying their meals, and sipping drinks, contributing to a lively and social environment.The woman continues walking through the dining area, turning her head to look back and smiling warmly. Her expression suggests a sense of satisfaction or enjoyment as she navigates through the room. The camera captures her movement and the reactions of the guests, who appear to be absorbed in their own interactions.Throughout the video, the focus remains on the woman and her journey through the dining area, highlighting the elegant decor and the bustling activity of the guests. The overall ambiance is one of celebration and camaraderie, with the floral decorations and the well-dressed attendees enhancing the sophisticated setting.</p>
+        </div>
+      </div>
+
+      <!-- 视频项目 3：同上述结构 -->
+      <div class="carousel-item">
+        <div class="video-wrapper">
+          <video poster="" controls muted loop>
+            <source src="static/videos/3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-caption">
+          <h3 class="caption-title">Caption</h3>
+          <p>The video begins with a close-up shot of a large, textured rock featuring a dark, wet patch where water is visibly flowing over its surface. The rock's surface is rough and uneven, with various shades of gray and brown. In the background, some greenery is partially visible, suggesting an outdoor setting.As the scene progresses, a hummingbird enters the frame from the left side. It hovers briefly before landing on the rock near the wet area. The hummingbird then starts pecking at the surface of the rock, possibly searching for food or interacting with the wet spot.Shortly after, another bird, identified as a goldfinch due to its yellow plumage and black markings, appears from the right side of the frame. The goldfinch lands on the rock at a distance from the hummingbird and remains stationary for a moment, observing the hummingbird's activity.The hummingbird continues its pecking behavior, showing no immediate reaction to the presence of the goldfinch. Gradually, the goldfinch moves closer to the hummingbird, eventually landing near it. Both birds are now on the rock together, with the hummingbird still engaged in pecking at the surface. The goldfinch remains relatively still, watching the hummingbird's actions closely.The video captures the interaction between these two different bird species on the rock, highlighting their distinct behaviors and movements within the natural environment. The focus remains on the birds and their activities, providing a clear view of their actions and the surrounding rock surface.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video captioning aims to generate comprehensive and coherent descriptions of the video content, contributing to the advancement of both video understanding and generation. However, existing methods often suffer from motion-detail imbalance, as models tend to overemphasize one aspect while neglecting the other. This imbalance results in incomplete captions, which in turn leads to a lack of consistency in video understanding and generation. To address this issue, we propose solutions from two aspects: 1) Data aspect: we constructed the Harmonizing Motion-Detail 270K (HMD-270K) dataset through a two-stage pipeline: Motion-Detail Fusion (MDF) and Fine-Grained Examination (FGE). 2) Optimization aspect: We introduce the Caption Set Equivalence Reward (CSER) based on Group Relative Policy Optimization (GRPO). CSER enhances completeness and accuracy in capturing both motion and details through unit-to-set matching and bidirectional validation. Based on the HMD-270K supervised fine-tuning and CSER post-training, we developed OwlCap, a powerful video captioning multi-modal large language model (MLLM) with motion-detail balance. Experimental results demonstrate that OwlCap achieves significant improvements compared to baseline models on two benchmarks: the detail-focused VDC (+4.2 Acc) and the motionfocused DREAM-1K (+4.6 F1). The HMD-270K dataset and OwlCap model will be publicly released to facilitate video captioning research community advancements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+<!-- Motivation Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Motivation</h2> <!-- 部分标题 -->
+        <div class="content has-text-justified">
+          <p>
+            <!-- 在这里放入您的 Motivation 文字内容 -->
+            As shown in Figure.(a), Tarsier typically focuses on outputting motion information in videos, while AuroraCap emphasizes detail presentation, both neglecting the other aspect; (2) as illustrated in Figure.(b), existing models tend to excel in specific benchmarks: Tarsier performs well on the motion-focused DREAM-1K benchmark, while AuroraCap excels on the detail-focused Video Detailed Captions (VDC) benchmark. In summary, existing MLLMs fail to balance motion and detail in video captioning. This imbalance results in incomplete captions, which in turn leads to a lack of consistency in video understanding and generation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PDF Image/Embed for Motivation -->
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <!-- 方式一：如果 PDF 图片已导出为图片 (推荐用于快速加载和兼容性) -->
+        <div class="content has-text-centered">
+            <img src="static/images/motivation.png" alt="Motivation Pipeline Diagram" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        </div>
+
+        <!-- 方式二：如果要直接嵌入 PDF (注意兼容性和加载时间) -->
+        <!--
+        <div class="content has-text-centered">
+            <iframe src="static/pdfs/motivation_pipeline.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;"></iframe>
+            <p class="is-size-7 has-text-grey" style="margin-top: 0.5em;">Figure: Motivation Pipeline (PDF).</p>
+        </div>
+        -->
+      </div>
+    </div>
+    <!-- End PDF Image/Embed -->
+  </div>
+</section>
+<!-- End Motivation Section -->
+<!-- Data Construct Pipeline Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Data Construct Pipeline</h2> <!-- 部分标题 -->
+        <div class="content has-text-justified">
+          <p>
+             <!-- 在这里放入您的 Data Construct Pipeline 文字内容 -->
+             As shown in Figure, we designed an information fusion and filtering pipeline that leverages open-source video captioning MLLMs to generate motion-detail balanced captions through Motion-Detail Fusion (MDF) and Fine-Grained Examination (FGE) stages. The MDF stage completes the captions, while the FGE stage verifies their accuracy.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PDF Image/Embed for Data Construct Pipeline -->
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <!-- 方式一：PDF 图片 -->
+        <div class="content has-text-centered">
+            <img src="static/images/data.png" alt="Data Construction Pipeline Diagram" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        </div>
+
+        <!-- 方式二：嵌入 PDF -->
+        <!--
+        <div class="content has-text-centered">
+            <iframe src="static/pdfs/data_pipeline.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;"></iframe>
+            <p class="is-size-7 has-text-grey" style="margin-top: 0.5em;">Figure: Data Construction Pipeline (PDF).</p>
+        </div>
+        -->
+      </div>
+    </div>
+    <!-- End PDF Image/Embed -->
+  </div>
+</section>
+<!-- End Data Construct Pipeline Section -->
+
+<!-- GRPO Reward Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">GRPO Reward</h2> <!-- 部分标题 -->
+        <div class="content has-text-justified">
+          <p>
+            <!-- 在这里放入您的 GRPO Reward 文字内容 -->
+            As shown in Figure, aligned with the Fine-Grained Examination stage in the HMD-270K construction pipeline, we decompose both the predicted and GT captions into minimal semantic units using the Qwen3-32B large language model. This decomposition follows the principle of breaking down descriptions into irreducible semantic elements. After decomposition, the predicted caption is represented as a sequence of prediction units: U1, U2, ..., Un, while the GT caption is transformed into a sequence of GT fact units: F1, F2, ..., Fm. We then assess the generation quality using two scores based on the concept of set equivalence:<br>
+            <b>Correctness Score</b>: Measured by the matching accuracy between predicted units and the entire GT Caption. If a single predicted unit fails to match the GT Caption as a whole, it indicates that the unit contains information irrelevant to the video content, thereby reducing the overall accuracy of the generated caption.<br>
+            <b>Completeness Score</b>: Calculated as the proportion of GT facts covered by the entire predicted caption. If a fact in the GT is not covered by the predicted caption as a whole, it signifies that this key part of the video content is not described, thus reducing the overall completeness of the generated caption.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PDF Image/Embed for GRPO Reward -->
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <!-- 方式一：PDF 图片 -->
+        <div class="content has-text-centered">
+            <img src="static/images/reward.png" alt="GRPO Reward Diagram" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+        </div>
+
+        <!-- 方式二：嵌入 PDF -->
+        <!--
+        <div class="content has-text-centered">
+            <iframe src="static/pdfs/grpo_reward.pdf" width="100%" height="600px" style="border: 1px solid #ddd; border-radius: 4px;"></iframe>
+            <p class="is-size-7 has-text-grey" style="margin-top: 0.5em;">Figure: GRPO Reward Mechanism (PDF).</p>
+        </div>
+        -->
+      </div>
+    </div>
+    <!-- End PDF Image/Embed -->
+  </div>
+</section>
+<!-- End GRPO Reward Section -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">OwlCap: Harmonizing Motion-Detail for Video Captioning via  HMD-270K and Caption Set Equivalence Reward</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>

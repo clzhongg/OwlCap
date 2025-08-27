@@ -1,0 +1,12 @@
+{
+    "tarsier_combine": {
+      "root": "",
+      "annotation": "/home/notebook/data/group/group/Zhongchunlin/data_all/GRPO_2K_1_3/*.jsonl",
+      "data_augment": false,
+      "repeat_time": 1,
+      "length": 1,
+      "task_weight": 3,
+      "batch_size": 2,
+      "num_workers": 4
+    }
+}
