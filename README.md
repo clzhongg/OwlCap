@@ -6,15 +6,12 @@
 **Shuang Hao**<sup>1,3</sup>, **Haonan Lu**<sup>2</sup>, **He Tang**<sup>1✉</sup>, **Xiang Bai**<sup>1✉</sup>
 
 <sup>1</sup> School of Software Engineering,<br>
-Huazhong University of Science and Technology,<br>
+Huazhong University of Science and Technology,
 Wuhan, China  
-
-<sup>2</sup> OPPO AI Center, OPPO Inc.,<br>
+<sup>2</sup> OPPO AI Center, OPPO Inc.,
 China  
-
-<sup>3</sup> School of Life Science and Technology,<br>
+<sup>3</sup> School of Life Science and Technology,
 Xi’an Jiaotong University, Xi’an, China  
-
 </div>
 
 <div align="center" style="margin: 20px 0;">
@@ -30,7 +27,7 @@ This repo is the official implementation of "[**OwlCap: Harmonizing Motion-Detai
 
 We introduce **HMD-270K**, a large-scale high-quality video captioning dataset containing 270K videos with detailed and motion-aware captions.
 
-**Contact:** clzhong@hust.edu.cn; hetang@hust.edu.cn; xbai@hust.edu.cn; {houqiuxia, zhangyanhao}@oppo.com
+**Contact:** clzhong@hust.edu.cn; hetang@hust.edu.cn
 
 ## 📸 Overview
 
@@ -41,8 +38,8 @@ We introduce **HMD-270K**, a large-scale high-quality video captioning dataset c
 ## 📅 Updates (Timeline)
 
 - [x] **2025-08**: Paper released on arXiv
-- [x] **2025-12**: HMD-270K Dataset public release → [Download on Hugging Face](https://huggingface.co/datasets/Chunlin13/HMD-270K)
-- [x] **2025-12**: Training/test code & pre-trained model weights released
+- [ ] **2026-1**: HMD-270K Dataset public release → [Download on Hugging Face](https://huggingface.co/datasets/Chunlin13/HMD-270K)
+- [ ] **2026-1**: Training/test code & pre-trained model weights released
 
 ## 🔧 Installation & Environment Setup
 
