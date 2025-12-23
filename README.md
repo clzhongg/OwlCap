@@ -1,5 +1,5 @@
-# OwlCap: Harmonizing Motion-Detail for Video Captioning via HMD-270K and Caption Set Equivalence Reward
 
+<h1 align="center">OwlCap: Harmonizing Motion-Detail for Video Captioning via HMD-270K and Caption Set Equivalence Reward</h1>
 <div align="center">
 
 **Chunlin Zhong**<sup>1*</sup>, **Qiuxia Hou**<sup>2*</sup>, **Zhangjun Zhou**<sup>1*</sup>, **Yanhao Zhang**<sup>2+</sup>,  
@@ -52,3 +52,27 @@ git clone https://github.com/your_username/OwlCap.git
 cd OwlCap
 # Follow VideoChat-R1 setup instructions
 pip install -r requirements.txt  # if additional requirements exist
+```
+## Train
+
+see training_scripts
+
+## Eval
+🔥 VDC Benchmark **[(Video Detail Captioning)](https://github.com/rese1f/aurora)**
+Evaluate detailed video captioning performance using the lmms-eval framework.  
+👉 Follow the protocol from: EvolvingLMMs-Lab/lmms-eval  
+
+🔥 **[Dream-1K Benchmark]()**
+Assess hallucination mitigation and fine-grained motion/detail perception on challenging videos.  
+👉 Follow the evaluation protocol from: ByteDance/Tarsier
+
+## 📝 Citation
+If you use the PathVG dataset, code, or results in your research, please cite our AAAI 2026 paper:<br>
+@article{zhong2025owlcap,<br>
+  title={OwlCap: Harmonizing Motion-Detail for Video Captioning via HMD-270K and Caption Set Equivalence Reward},<br>
+  author={Zhong, Chunlin and Hou, Qiuxia and Zhou, Zhangjun and Hao, Shuang and Lu, Haonan and Zhang, Yanhao and Tang, He and Bai, Xiang},<br>
+  journal={arXiv preprint arXiv:2508.18634},<br>
+  year={2025}<br>
+}<br>
+
+For questions or issues, please open an issue or contact the corresponding author at: [clzhong@hust.edu.cn]
