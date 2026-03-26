@@ -67,7 +67,7 @@ Assess hallucination mitigation and fine-grained motion/detail perception on cha
 👉 Follow the evaluation protocol from: ByteDance/Tarsier
 
 ## 📝 Citation
-If you use the PathVG dataset, code, or results in your research, please cite our AAAI 2026 paper:<br>
+If you use the OwlCap dataset, code, or results in your research, please cite our AAAI 2026 paper:<br>
 @article{zhong2025owlcap,<br>
   title={OwlCap: Harmonizing Motion-Detail for Video Captioning via HMD-270K and Caption Set Equivalence Reward},<br>
   author={Zhong, Chunlin and Hou, Qiuxia and Zhou, Zhangjun and Hao, Shuang and Lu, Haonan and Zhang, Yanhao and Tang, He and Bai, Xiang},<br>
