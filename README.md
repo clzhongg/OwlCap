@@ -18,7 +18,7 @@ Xi’an Jiaotong University, Xi’an, China
 
 <a href="https://arxiv.org/abs/2508.18634"><img src="https://img.shields.io/badge/arXiv-2508.18634-red" alt="arXiv"></a>
 <a href="https://arxiv.org/pdf/2508.18634"><img src="https://img.shields.io/badge/PDF-Download-red" alt="PDF"></a>
-<a href="https://huggingface.co/datasets/Chunlin13/HMD-270K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-Dataset-blue" alt="Dataset"></a>
+<a href="https://huggingface.co/OwlCap"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-Dataset-blue" alt="Dataset"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC--BY--NC--SA%204.0-yellow" alt="License"></a>
 
 </div>
@@ -38,8 +38,8 @@ We introduce **HMD-270K**, a large-scale high-quality video captioning dataset c
 ## 📅 Updates (Timeline)
 
 - [x] **2025-08**: Paper released on arXiv
-- [ ] **2026-1**: HMD-270K Dataset public release → [Download on Hugging Face](https://huggingface.co/datasets/Chunlin13/HMD-270K)
-- [ ] **2026-1**: Training/test code & pre-trained model weights released
+- [x] **2026-3**: HMD-270K Dataset public release → [Download on Hugging Face](https://huggingface.co/datasets/OwlCap/HMD-270K)
+- [x] **2026-3**: Training/test code & pre-trained model weights released → [Download on Hugging Face](https://huggingface.co/OwlCap/OwlCap-7B)
 
 ## 🔧 Installation & Environment Setup
 
