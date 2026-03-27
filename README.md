@@ -15,7 +15,7 @@ Xi’an Jiaotong University, Xi’an, China
 </div>
 
 <div align="center" style="margin: 20px 0;">
-
+<a href='https://ojs.aaai.org/index.php/AAAI/article/view/38355'><img src='https://img.shields.io/badge/Conference-Paper-red'></a>&ensp; 
 <a href="https://arxiv.org/abs/2508.18634"><img src="https://img.shields.io/badge/arXiv-2508.18634-red" alt="arXiv"></a>
 <a href="https://arxiv.org/pdf/2508.18634"><img src="https://img.shields.io/badge/PDF-Download-red" alt="PDF"></a>
 <a href="https://huggingface.co/OwlCap"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-Dataset-blue" alt="Dataset"></a>
