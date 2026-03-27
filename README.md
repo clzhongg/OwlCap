@@ -1,5 +1,5 @@
 
-<h2 align="center">OwlCap: Harmonizing Motion-Detail for Video Captioning via HMD-270K and Caption Set Equivalence Reward</h2>
+<h2 align="center">OwlCap: Harmonizing Motion-Detail for Video Captioning <br> via HMD-270K and Caption Set Equivalence Reward</h2>
 <div align="center">
 
 **Chunlin Zhong**<sup>1*</sup>, **Qiuxia Hou**<sup>2*</sup>, **Zhangjun Zhou**<sup>1*</sup>, **Yanhao Zhang**<sup>2+</sup>,  
