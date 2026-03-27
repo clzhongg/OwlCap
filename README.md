@@ -68,11 +68,14 @@ Assess hallucination mitigation and fine-grained motion/detail perception on cha
 
 ## 📝 Citation
 If you use the OwlCap dataset, code, or results in your research, please cite our AAAI 2026 paper:<br>
-@article{zhong2025owlcap,<br>
-  title={OwlCap: Harmonizing Motion-Detail for Video Captioning via HMD-270K and Caption Set Equivalence Reward},<br>
-  author={Zhong, Chunlin and Hou, Qiuxia and Zhou, Zhangjun and Hao, Shuang and Lu, Haonan and Zhang, Yanhao and Tang, He and Bai, Xiang},<br>
-  journal={arXiv preprint arXiv:2508.18634},<br>
-  year={2025}<br>
-}<br>
+@inproceedings{zhong2026owlcap,<br>
+  title={Owlcap: Harmonizing motion-detail for video captioning via hmd-270k and caption set equivalence reward},<br>
+  author={Zhong, Chunlin and Hou, Qiuxia and Zhou, Zhangjun and Zhang, Yanhao and Hao, Shuang and Lu, Haonan and Tang, He and Bai, Xiang},<br>
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},<br>
+  volume={40},<br>
+  number={16},<br>
+  pages={13503--13511},<br>
+  year={2026}<br>
+}
 
 For questions or issues, please open an issue or contact the corresponding author at: [clzhong@hust.edu.cn]
