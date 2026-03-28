@@ -43,7 +43,7 @@ We introduce **HMD-270K**, a large-scale high-quality video captioning dataset c
 
 ## 🔧 Installation & Environment Setup
 
-This project is built upon **[VideoChat-R1](https://github.com/OpenGVLab/VideoChat)**.
+This project is built upon **[VideoChat-R1](https://github.com/OpenGVLab/VideoChat-R1)**.
 
 Please follow the official installation guide of VideoChat-R1 to set up the environment first, then clone this repository:
 
